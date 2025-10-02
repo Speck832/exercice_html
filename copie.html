@@ -11,12 +11,14 @@
         <h1 >Bienvenue sur ma page HTML</h1>
         <p>Cette page est un exercice pour débutant en HTML</p>
     </header>
-    <nav >
-        <a href="#Accueil">Accueil</a>
-        <h4>|</h4>
-        <a href="#À propos">À propos</a>
-        <h4>|</h4>
-        <a href="#Contact">Contact</a>
+    <nav>
+        <p>
+            <a href="#Accueil">Accueil</a>
+            |
+            <a href="#A_propos">À propos</a>
+            |
+            <a href="#Contact">Contact</a>
+        </p>
     </nav>
     <section>
         <h2 id="Accueil">Accueil</h2>
@@ -24,12 +26,15 @@
         <img src="https://placehold.co/300x150" alt="Image du test">
     </section>
     <section>
+        <p></p>
+    </section>
+    <section>
         <a href="./index.html" target="_blank">
             <button>Aller vers la page index.html</button>
         </a>
     </section>
     <section>
-        <h2 id="À propos">À propos</h2>
+        <h2 id="A_propos">À propos</h2>
         <p>Voici une liste de technologies web :</p>
         <ul>
             <li>HTML</li>
@@ -39,20 +44,26 @@
     </section>
     <section>
         <h2>Tableau d'exemple</h2>
-        <p>Langages Web</p>
-        <table>
-            <thead>
-                <th>Langage</th>
-                <th>Utilisation</th>
+        <table border="1" cellpadding="5" cellspacing="0" align="center">
+            <p align="center">Langages Web</p>
+            <thead bgcolor="#dddddd">
+                <tr>
+                    <th>Langage</th>
+                    <th>Utilisation</th>
+                </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>HTML</td>
+                    <td>Structure des pages</td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
+                    <td>CSS</td>
+                    <td>Style des pages</td>
+                </tr>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Interaction</td>
                 </tr>
             </tbody>
         </table>
